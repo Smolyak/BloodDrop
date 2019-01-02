@@ -1,6 +1,6 @@
 package com.simpleondrew.blooddrop.app.di.launch
 
-import com.simpleondrew.blooddrop.app.ui.MainFragment
+import com.simpleondrew.blooddrop.app.ui.newrecord.NewRecordFragment
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
@@ -13,5 +13,5 @@ import dagger.android.ContributesAndroidInjector
 interface LaunchActivityModule {
 
     @ContributesAndroidInjector
-    fun provideMainFragment(): MainFragment
+    fun provideNewRecordFragment(): NewRecordFragment
 }

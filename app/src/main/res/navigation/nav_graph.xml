@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/new_record_dest">
+
+    <fragment
+        android:id="@+id/new_record_dest"
+        android:name="com.simpleondrew.blooddrop.app.ui.newrecord.NewRecordFragment"
+        android:label="@string/new_record_title"
+        tools:layout="@layout/new_record_fragment"/>
+</navigation>

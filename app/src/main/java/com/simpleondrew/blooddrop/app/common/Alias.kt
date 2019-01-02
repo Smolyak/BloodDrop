@@ -1,5 +1,7 @@
 package com.simpleondrew.blooddrop.app.common
 
+import androidx.fragment.app.Fragment
+
 /**
  * Created by: Andrey Smolyak
  * email: simpleondrew@ya.ru
@@ -7,3 +9,4 @@ package com.simpleondrew.blooddrop.app.common
  **/
 
 typealias ActivityAlias = BaseActivity
+typealias FragmentAlias = Fragment
