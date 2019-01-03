@@ -4,8 +4,7 @@
     <!--Common-->
     <string name="save">Save</string>
     <!--Timeline-->
-    <string name="fastrecord_bgl_hint">Blood glucose</string>
-    <string name="fastrecord_insulin_dose_hint">Insulin dose</string>
+    <string name="timeline_title">History</string>
 
     <!--New record-->
     <string name="new_record_title">Add new record</string>

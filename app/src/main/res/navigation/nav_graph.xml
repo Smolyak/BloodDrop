@@ -9,4 +9,10 @@
         android:name="com.simpleondrew.blooddrop.app.ui.newrecord.NewRecordFragment"
         android:label="@string/new_record_title"
         tools:layout="@layout/new_record_fragment"/>
+
+    <fragment
+        android:id="@+id/timeline_dest"
+        android:name="com.simpleondrew.blooddrop.app.ui.timeline.TimelineFragment"
+        android:label="@string/timeline_title"
+        tools:layout="@layout/timeline_fragment"/>
 </navigation>
